@@ -12,25 +12,22 @@
 <body>
     <!--header-->
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg ">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
+                <a class="navbar-brand" href="#"><img class="logo" src="./img/minilogo.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link" aria-current="page" href="#">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
+                            <a class="nav-link" href="#">Horarios y ubicación</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled">Disabled</a>
+                            <a class="nav-link" href="#">Menu</a>
                         </li>
                     </ul>
                 </div>
@@ -38,23 +35,64 @@
         </nav>
     </header>
     <main class="diseñoBackground">
-        <div class="container">
-            <div>
-                <div class="row">
-                    <div class="col boxHorarios">
-                        
-                    </div>
-                    <div class="col boxHorarios">
-
+        <section>
+            <div class="container">
+                <div>
+                    <h2 class="title">Horarios y ubicación</h2>
+                </div>
+                <div class="horariosUbicacion">
+                    <a class="estadoTienda" target="_blank" href="https://www.google.com/maps/place/Granero+66/@-37.3737427,-59.1250283,14z/data=!4m6!3m5!1s0x95911f717748a34f:0x5fc6f216e0bd6b0d!8m2!3d-37.3695307!4d-59.1115958!16s%2Fg%2F11sgnh73sl?entry=ttu"></a>
+                    <div class="row">
+                        <div class="col boxHorarios">
+                            <h2 class="title">Horarios</h2>
+                            <p>IMPORTANTE</p>
+                            <p>Horario especial vacaciones de invierno</p>
+                            <p>te esperamos todos los dias de 11:30 a 00</p>
+                            <p>-------------------------</p>
+                            <p>Luego de las vacaciones de invierno volvemos a nuestro horario habitual</p>
+                            <p>viernes 11:30 a 00</p>
+                            <p>sábado 11:30 a 00</p>
+                            <p>domingo 11:30 a 00</p>
+                            <p>feriados 11:30 a 00</p>
+                        </div>
+                        <div class="col boxHorarios">
+                            <h2 class="title">Ubicación</h2>
+                            <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3170.8584360829695!2d-59.11417072466927!3d-37.369526408779116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95911f717748a34f%3A0x5fc6f216e0bd6b0d!2sGranero%2066!5e0!3m2!1ses!2sar!4v1689030435231!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <button class="botonMapa"><a href="https://www.google.com/maps/dir//Granero+66,+Av.+Don+Bosco+2340,+B7000+Tandil,+Provincia+de+Buenos+Aires/@-37.3695264,-59.1141707,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x95911f717748a34f:0x5fc6f216e0bd6b0d!2m2!1d-59.1115958!2d-37.3695307?hl=es&entry=ttu" target="_blank">Como llegar</a></button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     </main>
-    <footer>
-
-    </footer>
-    <script src="./scripts.js"></script>
+    <footer class="pie-pagina" >
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img class="logoFooter" src="./img/Logo granero png (1).png" alt="">
+                    </a>
+                </figure>
+            </div>
+            <div class="box boxFooter">
+                <h2>GRANERO 66</h2>
+                <a class="footertext" href="./hamburgesas.html">MENÚ</a>
+                <a class="footertext" href="../ubicacion.html">UBICACIÓN</a>
+                <a class="footertext" href="../quienessomos.html">SOBRE NOSOTROS</a>
+            </div>
+            <div class="box">
+                <h2>SÍGUENOS</h2>
+                <div class="red-social">
+                    <a href="https://www.facebook.com/profile.php?id=100075911814016" target="_blank" class="fa fa-facebook"><img class="footerIcono" src="./img/Facebook_f_logo_(2019).svg.webp" alt=""></a>
+                    <a href="https://www.instagram.com/granero66tandil/" target="_blank" class="fa fa-instagram"><img class="footerIcono" src="./img/Instagram_icon.png.webp" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2023 <b>Granero66</b> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer> 
+    <script src="./script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
