@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Lobster+Two&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Lobster+Two&display=swap" rel="stylesheet"> 
     <!--bootsrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/estilos.css">
@@ -38,10 +44,11 @@
         <section>
             <div class="container">
                 <div>
-                    <h2 class="title">Horarios y ubicación</h2>
+                    <h2 class="tituloH">Horarios y ubicación</h2>
                 </div>
                 <div class="horariosUbicacion">
-                    <a class="estadoTienda" target="_blank" href="https://www.google.com/maps/place/Granero+66/@-37.3737427,-59.1250283,14z/data=!4m6!3m5!1s0x95911f717748a34f:0x5fc6f216e0bd6b0d!8m2!3d-37.3695307!4d-59.1115958!16s%2Fg%2F11sgnh73sl?entry=ttu"></a>
+                    <div class="estadoTienda" id="estadoTienda"></div>
+                    <div class="contadorTienda" id="contadorTienda"></div>
                     <div class="row">
                         <div class="col boxHorarios">
                             <h2 class="title">Horarios</h2>
@@ -63,6 +70,680 @@
                     </div>
                 </div>
             </div>
+        </section>
+        <section>
+            <section>
+                <div class="container titulomenu">
+                    <div>
+                        <h2 class="tituloH">Menu</h2>
+                    </div>
+                </div>
+            </section>
+            <nav class="menu">
+                <ul>
+                    <li><a href="#hamburgesas">hamburgesas</a></li>
+                    <li><a href="#milanesas">Milanesas</a></li>
+                    <li><a href="#phylis">Phylis y sandwiches</a></li>
+                    <li><a href="#ensaladas">Ensaladas</a></li>
+                    <li><a href="#hotdog">Hot dog</a></li>
+                    <li><a href="#parapicar">Para picar</a></li>
+                    <li><a href="#postres">Postres</a></li>
+                    <li><a href="#celiacos">Celiacos</a></li>
+                    <li><a href="#bebidas">Bebidas</a></li>
+                </ul>
+            </nav>
+            <section id="hamburgesas" class="custom container">
+                <div class="contenedortitulohamb" data-aos="zoom-in">
+                    <h3 class="tituloH" >HAMBURGUESAS</h3>
+                </div>
+                    <div class="row  row-cols-2 row-cols-sm-2 row-cols-md-3 g-3">
+                        <div class="col text-center" data-aos="zoom-in">
+                            <article class="contenedorHamb" >
+                                <h3 class="textHamb">Los Angeles</h3>
+                                <img class="imagenHamb" src="../../img/Los Angeles.jpg" alt="hamburgesa los angeles">
+                            </article>
+                        </div>
+                        <div class="col text-center" data-aos="zoom-in">
+                            <article class="contenedorHamb">
+                                <h3 class="textHamb">Chicago</h3>
+                                <img class="imagenHamb" src="../../img/Chicago.jpg" alt="">
+                            </article>
+                        </div>
+                        <div class="col" data-aos="zoom-in">
+                            <article class="contenedorHamb">
+                                <h3 class="textHamb">Kansas</h3>
+                                <img class="imagenHamb" src="../../img/Lkansas.jpg" alt="">
+                            </article>
+                        </div>
+                        <div class="col" data-aos="zoom-in">
+                            <article class="contenedorHamb">
+                                <h3 class="textHamb">Texas</h3>
+                                <img class="imagenHamb" src="../../img/texas.jpg" alt="">
+                            </article>
+                        </div>
+                        <div class="col" data-aos="zoom-in">
+                            <article class="contenedorHamb">
+                                <h3 class="textHamb">Oklahoma</h3>
+                                <img class="imagenHamb" src="../../img/oklahoma.jpg" alt="">
+                            </article>
+                        </div>
+                        <div class="col" data-aos="zoom-in">
+                            <article class="contenedorHamb">
+                                <h3 class="textHamb">Michigan</h3>
+                                <img class="imagenHamb" src="../../img/michigan.jpg" alt="">
+                            </article>
+                        </div>
+                        <div class="col" data-aos="zoom-in">
+                            <article class="contenedorHamb">
+                                <h3 class="textHamb">Granero66</h3>
+                                <img class="imagenHamb" src="../../img/ham granero 66.jpg" alt="">
+                            </article>
+                        </div>
+                        <div class="col" data-aos="zoom-in">
+                            <article class="contenedorHamb">
+                                <h3 class="textHamb">Las Vegas</h3>
+                                <img class="imagenHamb" src="../../img/las vegas.jpg" alt="">
+                            </article>
+                        </div>
+                        <div class="col" data-aos="zoom-in">
+                            <article class="contenedorHamb">
+                                <h3 class="textHamb">Santa Monica</h3>
+                                <img class="imagenHamb" src="../../img/santa monica.jpg" alt="">
+                            </article>
+                        </div>
+                        <div class="col" data-aos="zoom-in">
+                            <article class="contenedorHamb">
+                                <h3 class="textHamb">Springfield</h3>
+                            </article>
+                        </div>
+                        <div class="col" data-aos="zoom-in">
+                            <article class="contenedorHamb">
+                                <h3 class="textHamb">Flagstaff</h3>
+                            </article>
+                        </div>
+                        <div class="col" data-aos="zoom-in">
+                            <article class="contenedorHamb">
+                                <h3 class="textHamb">California</h3>
+                            </article>
+                        </div>
+                        <div class="col" data-aos="zoom-in">
+                            <article class="container contenedorHamb">
+                                <h3 class="textHamb">Simple</h3>        
+                            </article>
+                        </div>
+                    </div>
+            </section>
+
+            <div id="milanesas" class="contenedortitulohamb" data-aos="zoom-in">
+                <h1 class="tituloH">MILANESAS</h1>
+            </div>
+            <section class="container text-center">
+                <div class="row  row-cols-2 row-cols-sm-2 row-cols-md-3 g-3 ">
+                    <div class="col" data-aos="zoom-in">
+                        <article class="contenedorHamb">
+                            <h2 class="textHamb">Seligmal</h2>
+                        </article>
+                    </div>
+                    <div class="col" data-aos="zoom-in">
+                        <article class="contenedorHamb">
+                            <h2 class="textHamb">Misuri</h2>
+                        </article>
+                    </div>
+                    <div class="col" data-aos="zoom-in">
+                        <article class="contenedorHamb">
+                            <h2 class="textHamb">Kingman</h2>
+                        </article>
+                    </div>
+                    <div class="col" data-aos="zoom-in">
+                        <article class="contenedorHamb">
+                            <H2 class="textHamb">Historica</H2>
+                        </article>
+                    </div>
+                    <div class="col" data-aos="zoom-in">
+                        <article class="contenedorHamb">
+                            <h2 class="textHamb">Williams</h2>
+                        </article>
+                    </div>
+                    <div class="col" data-aos="zoom-in">
+                        <article class="contenedorHamb">
+                            <h2 class="textHamb">Albuquerque</h2>
+                        </article>
+                    </div>
+                    <div class="col" data-aos="zoom-in">
+                        <article class="contenedorHamb">
+                            <h2 class="textHamb">Illinois</h2>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <div id="phylis" class="contenedortitulohamb" data-aos="zoom-in">
+                <h2 class="tituloH">PHYLIS</h2>
+            </div>
+            <section class="container text-center">
+                <div class="row  row-cols-2 row-cols-sm-2 row-cols-md-3 g-3 ">
+                    <div class="col" data-aos="zoom-in">
+                        <article class="contenedorHamb">
+                            <h3 class="textHamb">De carne</h3>
+                        </article>
+                    </div>
+                    <div class="col" data-aos="zoom-in">
+                        <article class="contenedorHamb">
+                            <h3 class="textHamb">De pollo</h3>
+                        </article>
+                    </div>
+                    <div class="col" data-aos="zoom-in">
+                        <article class="contenedorHamb">
+                            <h3 class="textHamb">De verduras</h3>
+                        </article>
+                    </div>
+                </div>
+            </Section>
+            <div class="contenedortitulohamb" data-aos="zoom-in">
+                <h2 class="tituloH">SANDWICHES</h2>
+            </div>
+            <section class="container text-center">
+                <div class="row  row-cols-2 row-cols-sm-2 row-cols-md-3 g-3 ">
+                    <div class="col" data-aos="zoom-in">
+                        <article class="contenedorHamb">
+                            <h3 class="textHamb">Lomito simple</h3>
+                        </article>
+                    </div>
+                    <div class="col" data-aos="zoom-in">
+                        <article class="contenedorHamb">
+                            <h3 class="textHamb">Lomito completo</h3>
+                        </article>
+                    </div>
+                    <div class="col" data-aos="zoom-in">
+                        <article class="contenedorHamb">
+                            <h3 class="textHamb">Tostado de jamón y queso</h3>
+                        </article>
+                    </div>
+                    <div class="col" data-aos="zoom-in">
+                        <article class="contenedorHamb">
+                            <h3 class="textHamb">Sandwich de crudo y queso</h3>
+                        </article>
+                    </div>
+                    <div class="col" data-aos="zoom-in">
+                        <p class="recordatorio">RECORDATORIO: en caso de pedir la comida en combo, incluye una bebida y papas</p>
+                    </div>
+                </div>
+            </section>
+            <div id="ensaladas" class="contenedortitulohamb" data-aos="zoom-in">
+                <h2 class="tituloH">ENSALADAS</h2>
+            </div>
+            <section class="container text-center">
+                <div class="row  row-cols-2 row-cols-sm-2 row-cols-md-3 g-3 ">
+                    <div class="col" data-aos="zoom-in">
+                        <article class="contenedorHamb">
+                            <h3 class="textHamb">Arizona</h3>
+                        </article>
+                    </div>
+                    <div class="col" data-aos="zoom-in">
+                        <article class="contenedorHamb">
+                            <h3 class="textHamb">Cesar</h3>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <div id="hotdog" class="contenedortitulohamb" data-aos="zoom-in">
+                <h2 class="tituloH">HOT DOGS</h2>
+            </div>
+            <section class="container text-center">
+                <div class="row  row-cols-2 row-cols-sm-2 row-cols-md-3 g-3 ">
+                        <div class="col" data-aos="zoom-in">
+                            <article class="contenedorHamb">
+                                <h3 class="textHamb">Hot dog simple</h3>
+                            </article>
+                        </div>
+                        <div class="col" data-aos="zoom-in">
+                            <article class="contenedorHamb">
+                                <h3 class="textHamb">Hot dog chucrut</h3>
+                            </article>
+                        </div>
+                        <div class="col" data-aos="zoom-in">
+                            <article class="contenedorHamb">
+                                <h3 class="textHamb">Hot dog boom</h3>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="col" data-aos="zoom-in">
+                        <p class="recordatorio">RECORDATORIO: en caso de pedir la comida en combo, incluye una bebida y papas</p>
+                    </div>
+            </section>
+            <div id="parapicar" class="contenedortitulohamb" data-aos="zoom-in">
+                <h1 class="tituloH">Para picar</h1>
+            </div>
+            <section class="custom container">
+                <div class="row  row-cols-2 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div class="col text-center" data-aos="zoom-in">
+                        <article class="contenedorHamb" >
+                            <h3 class="textHamb">Chicken</h3>
+                        </article>
+                    </div>
+                    <div class="col text-center" data-aos="zoom-in">
+                        <article class="contenedorHamb">
+                            <h3 class="textHamb">Rabas</h3>
+                        </article>
+                    </div>
+                    <div class="col" data-aos="zoom-in">
+                        <article class="contenedorHamb">
+                            <h3 class="textHamb">Aros de cebolla</h3>
+                        </article>
+                    </div>
+                    <div class="col" data-aos="zoom-in">
+                        <article class="contenedorHamb">
+                            <h3 class="textHamb">Papas fritas</h3>
+                        </article>
+                    </div>
+                    <div class="col" data-aos="zoom-in">
+                        <article class="contenedorHamb">
+                            <h3 class="textHamb">Papas con cheddar y panceta</h3>
+                        </article>
+                    </div>
+                    <div class="col" data-aos="zoom-in">
+                        <article class="contenedorHamb">
+                            <h3 class="textHamb">Picada tandilera</h3>
+                        </article>
+                    </div>
+                    <div class="col" data-aos="zoom-in">
+                        <article class="contenedorHamb">
+                            <h3 class="textHamb">Picada caliente</h3>
+                        </article>
+                    </div>
+            </section>
+            <div id="postres" class="contenedortitulohamb" data-aos="zoom-in">
+                <h2 class="tituloH">POSTRES</h2>
+            </div>
+            <div class="contenedortitulohamb" data-aos="zoom-in">
+                <h2 class="tituloH">TORTAS</h2>
+            </div>
+            <section class="container text-center">
+                <div class="row  row-cols-2 row-cols-sm-2 row-cols-md-3 g-3 ">
+                    <div class="col" data-aos="zoom-in">
+                        <article class="contenedorHamb">
+                            <h3 class="textHamb">Cheesecake</h3>
+                        </article>
+                    </div>
+                    <div class="col" data-aos="zoom-in">
+                        <article class="contenedorHamb">
+                            <h3 class="textHamb">tarta de frutilla</h3>
+                        </article>
+                    </div>
+                    <div class="col" data-aos="zoom-in">
+                        <article class="contenedorHamb">
+                            <h3 class="textHamb">chocooreo</h3>
+                        </article>
+                    </div>
+                    <div class="col" data-aos="zoom-in">
+                        <article class="contenedorHamb">
+                            <h3 class="textHamb">chocotorta</h3>
+                        </article>
+                    </div>
+                    <div class="col" data-aos="zoom-in">
+                        <article class="contenedorHamb">
+                            <h3 class="textHamb">tarta cabsha</h3>
+                        </article>
+                    </div>
+                    <div class="col" data-aos="zoom-in">
+                        <article class="contenedorHamb">
+                            <h3 class="textHamb">brownie classic</h3>
+                        </article>
+                    </div>
+                    <div class="col" data-aos="zoom-in">
+                        <article class="contenedorHamb">
+                            <h3 class="textHamb">brownie kit kat</h3>
+                        </article>
+                    </div>
+                    <div class="col" data-aos="zoom-in">
+                        <article class="contenedorHamb">
+                            <h3 class="textHamb">lemon pie</h3>
+                        </article>
+                    </div>
+                    <div class="col" data-aos="zoom-in">
+                        <article class="contenedorHamb">
+                            <h3 class="textHamb">torta oreo</h3>
+                        </article>
+                    </div>
+                    <div class="col" data-aos="zoom-in">
+                        <article class="contenedorHamb">
+                            <h3 class="textHamb">torta rogel</h3>
+                        </article>
+                    </div>
+                    <div class="col" data-aos="zoom-in">
+                        <article class="contenedorHamb">
+                            <h3 class="textHamb">donuts</h3>
+                        </article>
+                    </div>
+                </div>
+            </section>
+    
+                <!--WAFFLES-->
+                <div class="contenedortitulohamb" data-aos="zoom-in">
+                    <h2 class="tituloH">WAFFLES</h2>
+                </div>
+                <section class="container text-center" data-aos="zoom-in">
+                    <div class="row  row-cols-2 row-cols-sm-2 row-cols-md-3 g-3 ">
+                        <div class="col" data-aos="zoom-in">    
+                            <article class="contenedorHamb">
+                                <h3 class="textHamb">waffle frutal</h3>
+                            </article>
+                        </div>
+                        <div class="col" data-aos="zoom-in">
+                            <article class="contenedorHamb">
+                                <h3 class="textHamb">waffle especial</h3>
+                            </article>
+                        </div>
+                        <div class="col" data-aos="zoom-in">
+                            <article class="contenedorHamb">
+                                <h3 class="textHamb">waffle helado</h3>
+                            </article>
+                        </div>
+                    </div>
+                </section>
+                <!--OTROS-->
+        <div class="contenedortitulohamb" data-aos="zoom-in">
+            <h2 class="tituloH">OTROS</h2>
+        </div>
+        <section class="container text-center">
+            <div class="row  row-cols-2 row-cols-sm-2 row-cols-md-3 g-3 ">
+                <div class="col" data-aos="zoom-in">
+                    <article class="contenedorHamb">
+                        <h3 class="textHamb">Tostadas con mermelada</h3>
+                    </article>
+                </div>
+                <div class="col" data-aos="zoom-in">
+                    <article class="contenedorHamb">
+                        <h3 class="textHamb">yogurt con granola</h3>
+                    </article>
+                </div>
+                <div class="col" data-aos="zoom-in">
+                    <article class="contenedorHamb">
+                        <h3 class="textHamb">banana split</h3>
+                    </article>
+                </div>
+            </div>
+        </section>
+    
+        <!--CAFES-->
+        <div class="contenedortitulohamb" data-aos="zoom-in">
+            <h2 class="tituloH">CAFES</h2>
+        </div>
+        <section class="container text-center">
+            <div class="row  row-cols-2 row-cols-sm-2 row-cols-md-3 g-3 ">
+                <div class="col" data-aos="zoom-in">
+                    <article class="contenedorHamb">
+                        <h3 class="textHamb">cortado</h3>
+                    </article>
+                </div>
+                <div class="col" data-aos="zoom-in">
+                    <article class="contenedorHamb">
+                        <h3 class="textHamb">cafe con leche</h3>
+                    </article>
+                </div>
+                <div class="col" data-aos="zoom-in">
+                    <article class="contenedorHamb">
+                        <h3 class="textHamb">cafe negro</h3>
+                    </article>
+                </div>
+                <div class="col" data-aos="zoom-in">
+                    <article class="contenedorHamb">
+                        <h3 class="textHamb">lagrima</h3>
+                    </article>
+                </div>
+                <div class="col" data-aos="zoom-in">
+                    <article class="contenedorHamb">
+                        <h3 class="textHamb">capuccino</h3>
+                    </article>
+                </div>
+                <div class="col" data-aos="zoom-in">
+                    <article class="contenedorHamb">
+                        <h3 class="textHamb">latte chocolate blanco</h3>
+                    </article>
+                </div>
+                <div class="col" data-aos="zoom-in">
+                    <article class="contenedorHamb">
+                        <h3 class="textHamb">latte caramel</h3>
+                    </article>
+                </div>
+                <div class="col" data-aos="zoom-in">
+                    <article class="contenedorHamb">
+                        <h3 class="textHamb">submarino</h3>
+                    </article>
+                </div>
+                <div class="col" data-aos="zoom-in">
+                    <article class="contenedorHamb"> 
+                        <h3 class="textHamb">frappe</h3>
+                    </article>
+                </div>
+                <div class="col" data-aos="zoom-in">
+                    <article class="contenedorHamb">
+                        <h3 class="textHamb">milkshake</h3>
+                    </article>
+                </div>
+                <div class="col" data-aos="zoom-in">
+                    <article class="contenedorHamb">
+                        <h3 class="textHamb">chocolatada</h3>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!--ANTOJOS-->
+        <div class="contenedortitulohamb" data-aos="zoom-in">
+            <h2 class="tituloH">ANTOJOS</h2>
+        </div>
+        <section class="container text-center">
+            <div class="row  row-cols-2 row-cols-sm-2 row-cols-md-3 g-3 ">
+                <div class="col" data-aos="zoom-in">
+                    <article class="contenedorHamb" >
+                        <h3 class="textHamb">alfajor de maicena</h3>
+                    </article>
+                </div>
+                <div class="col" data-aos="zoom-in">
+                    <article class="contenedorHamb">
+                        <h3 class="textHamb">capelina de helado</h3>
+                    </article>
+                </div>
+                <div class="col" data-aos="zoom-in">
+                    <article class="contenedorHamb">
+                        <h3 class="textHamb">mini alfajor de maicena</h3>
+                    </article>
+                </div>
+                <div class="col" data-aos="zoom-in">
+                    <article class="contenedorHamb">
+                        <h3 class="textHamb">cookies</h3>
+                    </article>
+                </div>
+                <div class="col" data-aos="zoom-in">
+                    <article class="contenedorHamb">
+                        <h3 class="textHamb">alfa cookies</h3>
+                    </article>
+                </div>
+                <div class="col" data-aos="zoom-in">
+                    <article class="contenedorHamb">
+                        <h3 class="textHamb">alfajor de chocolate</h3>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <div class="contenedortitulohamb" data-aos="zoom-in">
+            <h2 id="celiacos" class="tituloH">HAMBURGUESAS</h2>
+        </div>
+        <section class="container text-center">
+            <div class="row  row-cols-2 row-cols-sm-2 row-cols-md-3 g-3 ">
+                <div class="col" data-aos="zoom-in">
+                    <article class="contenedorHamb">
+                        <h3 class="textHamb">bacon</h3>
+                    </article>
+                </div>
+                <div class="col" data-aos="zoom-in">
+                    <article class="contenedorHamb">
+                        <h3 class="textHamb">classic</h3>
+                    </article>
+                </div>
+                <div class="col" data-aos="zoom-in">
+                    <article class="contenedorHamb">
+                        <h3 class="textHamb">blue</h3>
+                    </article>
+                </div>
+                <div class="col" data-aos="zoom-in">
+                    <article class="contenedorHamb">
+                        <h3 class="textHamb">completa</h3>
+                    </article>
+                </div>
+            </div>
+        </section>
+        
+        <div class="contenedortitulohamb" data-aos="zoom-in">
+            <h2 class="tituloH">SANDWICHES</h2>
+        </div>
+        <section class="container text-center">
+            <div class="row  row-cols-2 row-cols-sm-2 row-cols-md-3 g-3 ">
+                <div class="col" data-aos="zoom-in">
+                    <article class="contenedorHamb">
+                        <h3 class="textHamb">jamón y queso</h3>
+                    </article>
+        </section>
+        <div class="contenedortitulohamb" data-aos="zoom-in">
+            <h2 class="tituloH">ENSALADAS</h2>
+        </div>
+        <section class="container text-center">
+            <div class="row  row-cols-2 row-cols-sm-2 row-cols-md-3 g-3 ">
+                <div class="col" data-aos="zoom-in">
+                    <article class="contenedorHamb">
+                        <h3 class="textHamb">Arizona</h3>
+                    </article>
+                </div>
+                <div class="col" data-aos="zoom-in">
+                    <article class="contenedorHamb">
+                        <h3 class="textHamb">Cesar</h3>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <div class="contenedortitulohamb" data-aos="zoom-in">
+            <h2 class="tituloH">PICAR</h2>
+        </div>
+        <section class="container text-center">
+            <div class="row  row-cols-2 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col" data-aos="zoom-in">
+                    <article class="contenedorHamb">
+                        <h3 class="textHamb">papas fritas</h3>
+                    </article>
+                </div>
+                <div class="col" data-aos="zoom-in">
+                    <article class="contenedorHamb">
+                        <h3 class="textHamb">papas fritas chedar y panceta</h3>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <div class="contenedortitulohamb" data-aos="zoom-in">
+            <h2 class="tituloH">DULCE</h2>
+        </div>
+        <section class="container text-center">
+            <div class="row  row-cols-2 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col" data-aos="zoom-in">
+                    <article class="contenedorHamb">
+                        <h3 class="textHamb">alfajor negro o blanco</h3>
+                    </article>
+                </div>
+                <div class="col" data-aos="zoom-in">
+                    <article class="contenedorHamb">
+                        <h3 class="textHamb">alfajor de maicena</h3>
+                    </article>
+                </div>
+                <div class="col" data-aos="zoom-in">
+                    <article class="contenedorHamb">
+                        <h3 class="textHamb">brownie</h3>
+                    </article>
+                </div>
+                <div class="col" data-aos="zoom-in">
+                    <article class="contenedorHamb">
+                        <h3 class="textHamb">pastafrola</h3>
+                    </article>
+                </div>
+                <div class="col" data-aos="zoom-in">
+                    <article class="contenedorHamb">
+                        <h3 class="textHamb">tostado jamón y queso</h3>
+                    </article>
+                </div>
+                <div class="col" data-aos="zoom-in">
+                    <article class="contenedorHamb">
+                        <h3 class="textHamb">submarino</h3>
+                    </article>
+                </div>
+                <div class="col" data-aos="zoom-in">
+                    <article class="contenedorHamb">
+                        <h3 class="textHamb">te</h3>
+                    </article>
+                </div>
+                <div class="col" data-aos="zoom-in">
+                    <article class="contenedorHamb">
+                        <h3 class="textHamb">exprimido de naranja</h3>
+                    </article>
+                </div>
+                <div class="col" data-aos="zoom-in">
+                    <article class="contenedorHamb">
+                        <h3 class="textHamb">limonada</h3>
+                    </article>
+                </div>
+                <div class="col" data-aos="zoom-in">
+                    <article class="contenedorHamb">
+                        <h3 class="textHamb">licuados</h3>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <div id="bebidas" class="contenedortitulohamb" data-aos="zoom-in">
+            <h2 class="tituloH">BEBIDAS</h2>
+        </div>
+        <section class="container text-center">
+            <div class="row  row-cols-2 row-cols-sm-2 row-cols-md-3 g-3  " data-aos="zoom-in">
+                <div class="col">
+                    <article class="contenedorHamb">
+                        <h3 class="textHamb">gaseosas</h3>
+                    </article>
+                </div>
+                <div class="col" data-aos="zoom-in">
+                    <article class="contenedorHamb">
+                        <h3 class="textHamb">aguas saborizadas</h3>
+                    </article>
+                </div>
+                <div class="col" data-aos="zoom-in">
+                    <article class="contenedorHamb">
+                        <h3 class="textHamb">cervezas</h3>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <div class="contenedortitulohamb" data-aos="zoom-in">
+            <h2 class="tituloH">TRAGOS</h2>
+        </div>
+        <section class="container text-center">
+            <div class="row  row-cols-2 row-cols-sm-2 row-cols-md-3 g-3 " data-aos="zoom-in">
+                <div class="col">
+                    <article class="contenedorHamb">
+                        <h3 class="textHamb">gin tonic</h3>
+                    </article>
+                </div>
+                <div class="col" data-aos="zoom-in">
+                    <article class="contenedorHamb">
+                        <h3 class="textHamb">campari</h3>
+                    </article>
+                </div>
+                <div class="col" data-aos="zoom-in">
+                    <article class="contenedorHamb">
+                        <h3 class="textHamb">fernet</h3>
+                    </article>
+                </div>
+                <div class="col" data-aos="zoom-in">
+                    <article class="contenedorHamb">
+                        <h3 class="textHamb">gancia</h3>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <button onclick="scrollToTop()" class="btn-scroll-top">Volver arriba</button>
         </section>
     </main>
     <footer class="pie-pagina" >
