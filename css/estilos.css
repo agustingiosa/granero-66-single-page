@@ -11,7 +11,7 @@
 
 .navbar {
     background-color: rgb(82, 29, 29);
-    height: 6rem;
+    text-align: center;
 }
 
 .nav-link {
@@ -20,6 +20,7 @@
     font-family: bebas neue;
     color: white;
 }
+
 
 .logo {
     width: 4rem;
@@ -418,15 +419,30 @@ div .box {
     .mapa{
         width: 20rem;
     }
-    .titulomenu .tituloH{
-        margin-top: 32rem;
-    }
 }
 
 @media screen and (max-width:405px){
     .menu {
         text-align: center;
+        height: 7.5rem;
+    }
+}
+
+
+@media screen and (max-width:414px){
+    .menu {
+        text-align: center;
         height: 7rem;
+    }
+    .horariosUbicacion {
+        height: 75rem;
+    }
+    .contenedorHamb {
+        height: 15rem;
+    }
+    .contenedorHamb .imagenHamb {
+        height: 10rem;
+        width: 8rem;
     }
 }
 
